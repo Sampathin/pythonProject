@@ -18,4 +18,10 @@ def fast_itr():
                         for arr in nd.nditer(x,flags=["buffered"],op_dtypes=['S']):
                             print(arr)
 fast_itr()
+def enum():
+    for j in nd.ndenumerate(x):
+
+        print(j)
+print("which shows arrays or matrics shows which dimension specific number placed")
+enum()
 exit()
