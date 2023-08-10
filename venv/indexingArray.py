@@ -1,0 +1,12 @@
+import numpy as nd
+x1 = nd.array([1,2,3])
+x2 = nd.array([[1,2,3],[4,5,6]])
+x3 = nd.array([[[1,2,3],[4,5,6],[7,8,9]]])
+print (x1[1])
+print (x2[0,1])
+print(x2[1,1])
+print(x3[0, 1])
+print(x3[0, 2,1])
+print(x2,"\n")
+print(x3, "\n")
+print(x3[0,1,-1])

@@ -1,0 +1,11 @@
+import numpy as np
+x = np.array ([1,2,3,4,5,6,7,8,9,10,11,12])
+y = np.array([1,2,3,4,5,6,7])
+#y = x.shape()
+y = x.reshape(2,3,2)
+print(y.shape," - Dimention Shapes size","\n\n","Dimention result\n",y)
+z = np.array([9,1,9,4,4,2,3,7,7,7,2,6])
+print(z.reshape(2,3,2),"\n\n",z.shape, "- Dimention Shapes Size")
+print("\n\n above x values has been Changed from 1 dimetion to 3 dimention array")
+#print(y.reshape(2,3,2),"\n\n",y.shape, "- Dimention Shapes Size")
+print(y.reshape(2,3,2))

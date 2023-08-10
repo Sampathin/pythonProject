@@ -1,0 +1,15 @@
+#nested array and diffrent dimentions
+import numpy as nd
+x = nd.array(45)
+x1 = nd.array([1,2,3],)
+x2 = nd.array([[1,2,3],[4,5,6]])
+x3 = nd.array([[[1,2,3],[4,5,6],[7,8,9]]])
+x4 = nd.array([1,2,3],ndmin =5)
+y = nd.array(((1,2,3),(4,5,6)))
+print(type(x), "type")
+print(y,"\n tuple array , mentioned in curved braces like '() but [] braces are list")
+print(x.ndim, "dimentional array\n",x)
+print(x1.ndim, "dimentional array\n",x1 )
+print(x2.ndim, "dimentional array\n", x2)
+print(x3.ndim, "dimentional array\n", x3)
+print(x4.ndim, "Higher Dimention array\n", x4)
